@@ -47,11 +47,14 @@
             <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
           </svg>
           <div class="btn-group">
-            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img class="ml-2" src="/assets/avatar.png" width=32px alt="Avatar">
+            <button class="btn dropdown-toggle nav-text" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="ml-2 rounded" src="/assets/avatar.png" width=32px alt="Avatar">
             </button>
-            <div class="dropdown-menu">
-              ...
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </div>
       </div>
@@ -69,9 +72,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <div class="white-border ml-3"><a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle nav-text white-border rounded ml-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Genres
-            </a></div>
+            </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
@@ -89,34 +92,115 @@
     
     <div class="container-fluid netflix-nav-dark pl-lg-4 ">
       <h6 class="sections">Trending Now</h6>
-      <div class="row mx-n1 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mb-4">
-          <div class="col px-1"><img src="/assets/media/media1.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
-          <div class="col px-1"><img src="/assets/media/media15.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
-          <div class="col px-1"><img src="/assets/media/media17.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
-          <div class="col px-1"><img src="/assets/media/media18.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
-
-          
-      </div>
+        <div id="carouselFirstRow" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+             <div class="carousel-item active">
+              <div class="row mb-4 mt-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1"><img src="/assets/media/media0.webp"  alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1"><img src="/assets/media/media1.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1"><img src="/assets/media/media2.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1"><img src="/assets/media/media3.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1"><img src="/assets/media/media4.jpg"  alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1"><img src="/assets/media/media5.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+            </div>
+          </div>
+            <div class="carousel-item">
+              <div class="row mb-4 mt-2">
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media6.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media7.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media8.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media9.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media10.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media11.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+            </div>
+          </div>
+          </div>
+        
+          <a class="carousel-control-prev" href="#carouselFirstRow" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselFirstRow" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      
+      <!------------------------------------------------- Second Row ------------------------------------------->
       <h6 class="sections">Watch Again</h6>
-      <div class="row mx-n1 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mb-4">
-          <div class="col px-1"><img src="/assets/media/media20.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
-          <div class="col px-1"><img src="/assets/media/media24.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
-          <div class="col px-1"><img src="/assets/media/media27.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
-          <div class="col px-1"><img src="/assets/media/media28.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0"></div>
+      <div id="carouselSecondRow" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+             <div class="carousel-item active">
+              <div class="row mb-4 mt-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media12.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media13.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media14.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media15.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media16.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media17.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+            </div>
+          </div>
+            <div class="carousel-item">
+              <div class="row mb-4 mt-2">
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media18.jpg"  alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media19.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media20.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media21.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media22.webp"  alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media23.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+            </div>
+          </div>
+          </div>
+        
+          <a class="carousel-control-prev" href="#carouselSecondRow" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselSecondRow" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      
 
-          
+<!---------------------------------------------Third Row---------------------------------------------------------------->
+<h6 class="sections">New Releases</h6>
+<div id="carouselThirdRow" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+             <div class="carousel-item active">
+              <div class="row mb-4 mt-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media24.jpg"  alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media25.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media26.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media27.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media28.jpg"  alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media29.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+            </div>
+          </div>
+            <div class="carousel-item">
+              <div class="row mb-4 mt-2">
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media30.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media31.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media32.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media14.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media12.jpg" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 px-1 px-1"><img src="/assets/media/media2.webp" alt="Movie Image" class="w-100 img-fluid mb-2 mb-lg-0 rounded"></div>
+            </div>
+          </div>
+          </div>
+        
+          <a class="carousel-control-prev" href="#carouselThirdRow" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselThirdRow" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-      <h6 class="sections">New Releases</h6>
-      <div class="row mx-n1 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
-          <div class="col px-1"><img src="/assets/media/media29.jpg" alt="Movie Image" class="w-100 img-fluid mb-6 "></div>
-          <div class="col px-1"><img src="/assets/media/media30.jpg" alt="Movie Image" class="w-100 img-fluid mb-6 "></div>
-          <div class="col px-1"><img src="/assets/media/media32.jpg" alt="Movie Image" class="w-100 img-fluid mb-6 "></div>
-          <div class="col px-1"><img src="/assets/media/media4.jpg" alt="Movie Image" class="w-100 img-fluid mb-6 "></div>
-      </div>
-    </div>
-
-    
-    <div class="container netflix-nav-dark nav-text " style="max-width:700px"> 
+      
+    <!---<div class="container mt-10 netflix-nav-dark nav-text" style="max-width:700px" > 
         <div class="row ">
         <div class="col"><p>Audio and subtitles</p></div>
         <div class="col"><p>Audio Description</p></div>
@@ -141,7 +225,7 @@
         <div class="col"><p>Audio and subtitles</p></div>
         <div class="col"><p>Audio and subtitles</p></div>
       </div>
-     </div>
+     </div> -->
 
     
 

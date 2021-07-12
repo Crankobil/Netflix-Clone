@@ -6,7 +6,7 @@ body{
  background-color: #141414;
 }
 
-.white-border{
+.white-border {
     border: solid 1px white;
     background-color: black;
 }
@@ -15,10 +15,24 @@ body{
     color: white;
 }
 
-.sections{
+.sections {
     color: white;
 }
 
-svg{
+svg {
     fill: white;
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-item {
+    color: white;
+    background-color: transparent;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: transparent;
 }
