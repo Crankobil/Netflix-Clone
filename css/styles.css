@@ -25,14 +25,16 @@ svg {
 
 .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid grey;
 }
 
 .dropdown-item {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     background-color: transparent;
 }
 
 .dropdown-item:hover {
     color: white;
     background-color: transparent;
-}
+    }
+
